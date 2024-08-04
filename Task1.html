@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- login -->
+      <div class="flex items-center justify-evenly h-[100vh]">
+        <div class="flex flex-col lg:w-[400px]">
+          <div class="flex flex-col">
+            <span class="text-3xl text-center mb-5">Login</span>
+            <span class="text-gray-500 text-center">
+              Enter your credential to access your account
+            </span>
+            <span class="mt-5 flex items-center gap-3 border-2 border-gray-300 justify-center p-2">
+              <img src="assets/google.webp" class="w-8" />
+              <span> Login with Google</span>
+            </span>
+          </div>
+          <!--   horizontal line -->
+          <div class="mt-6 mb-6 flex items-center">
+            <hr class="flex-grow border-gray-300" />
+            <span class="mx-3">Or</span>
+            <hr class="flex-grow border-gray-300" />
+          </div>
+
+          <div class="flex flex-col mb-6">
+            <label>Email Address</label>
+            <input
+              type="email"
+              placeholder="email@gmail.com"
+              class="border-2 border-gray-300 p-2"
+              required />
+          </div>
+          <div class="flex flex-col">
+            <span class="flex justify-between"><label>Password</label>
+              <span class="text-blue-800">Forget Password?</span></span>
+            <input
+              type="password"
+              placeholder="Password"
+              class="border-2 border-gray-300 p-2"
+              required />
+          </div>
+          <div class="mt-6 mb-4 w-full text-center bg-[#2E90FD] text-white p-2">
+            <button type="submit" value="Login">Login</button>
+          </div>
+          <span class="text-center text-gray-500">
+            Don't have an account? <span class="text-black">Register here</span>
+          </span>
+        </div>
+        <div class="hidden md:block">
+          <img src="assets/1.jpeg" class="w-[80%]" />
+        </div>
+      </div>
+  </body>
+</html>

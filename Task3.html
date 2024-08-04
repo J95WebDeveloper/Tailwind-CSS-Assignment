@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+    />
+  </head>
+  <body class="bg-[#E6E7EC]">
+    <!-- dashboard -->
+    <div class="fixed left-0 top-0 w-64 h-full bg-gray-900 p-4">
+      <a
+        href="#"
+        class="flex items-center justify-center pb-4 border-b border-b-gray-600 w-full"
+      >
+        <span class="text-2xl font-bold text-white ml-3">Dashboard</span>
+      </a>
+      <ul class="mt-4">
+        <li class="mb-1 group active">
+          <a
+            href="#"
+            class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md group-[.active]:bg-gray-800 group-[.active]:text-white"
+          >
+            <i class="fas fa-chart-pie"></i>
+            <span class="text-sm">Dashboard</span>
+          </a>
+        </li>
+        <li class="mb-1 group">
+          <a
+            href="#"
+            class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+          >
+            <i class="fa-solid fa-users"></i>
+            <span class="text-sm">Team</span>
+          </a>
+        </li>
+        <li class="mb-1 group">
+          <a
+            href="#"
+            class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+          >
+            <i class="fas fa-folder"></i>
+            <span class="text-sm">Projects</span>
+          </a>
+        </li>
+        <li class="mb-1 group">
+          <a
+            href="#"
+            class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+          >
+            <i class="fa-solid fa-calendar-days"></i>
+            <span class="text-sm">Calendar</span>
+          </a>
+        </li>
+        <li class="mb-1 group">
+          <a
+            href="#"
+            class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+          >
+            <i class="fa fa-file-text"></i>
+            <span class="text-sm">Documents</span>
+          </a>
+        </li>
+        <li class="mb-1 group">
+          <a
+            href="#"
+            class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+          >
+            <i class="fa fa-file-check"></i>
+            <span class="text-sm">Reports</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="absolute bottom-0">
+        <span class="text-gray-300 px-4">Your Teams</span>
+        <ul>
+          <li class="mb-1 group mt-3">
+            <a
+              href="#"
+              class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+            >
+              <i class="fa-solid fa-users"></i>
+              <span class="text-sm">PW Skills</span>
+            </a>
+          </li>
+          <li class="mb-1 group">
+            <a
+              href="#"
+              class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+            >
+              <i class="fa-solid fa-users"></i>
+              <span class="text-sm">PW Labs</span>
+            </a>
+          </li>
+          <li class="mb-1 group">
+            <a
+              href="#"
+              class="flex items-center gap-4 py-2 px-4 text-gray-300 hover:bg-gray-950 hover:text-gray-100 rounded-md"
+            >
+              <i class="fa-solid fa-users"></i>
+              <span class="text-sm">PW - IOI</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- start main -->
+    <div class="w-[calc(100%-256px)] ml-64 px-2">
+      <div
+        class="py-4 px-6 bg-white flex items-center shadow-lg p-2 mt-3 gap-2"
+      >
+        <i class="fa-solid fa-circle-user"></i>
+        <span>Profile</span>
+      </div>
+    </div>
+  </body>
+</html>
